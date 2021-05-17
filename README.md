@@ -27,9 +27,9 @@
 ### The current orders page shows all the orders that are yet to be completed. You can first accept the order or choose to cancel it. The order consists of all the items, the time at which the order was placed, and their delivery information.
 ---
 <img src="images/orders1.png" 
-     alt="Logo" width="49%"> 
-<img src="images/orders2.png" 
-     alt="Logo" width="49%">
+     alt="Logo" width="45%"> 
+<img src="images/orders2.png" align="right" 
+     alt="Logo" width="45%">
 <br/>
 
 ### This is where you can add items. You have differnt options for different items. You can also add an item image which will be displayed for the item in the app.
