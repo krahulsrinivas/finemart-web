@@ -1,0 +1,10 @@
+directories:
+  output: dist
+  buildResources: assets
+appId: com.example.electron-cra
+files:
+  - filter:
+      - build/**/*
+      - node_modules/**/*
+extends: null
+electronVersion: 9.4.2

@@ -1,0 +1,66 @@
+{
+  "name": "finemart-web",
+  "version": "0.1.0",
+  "main": ".public/electron.js",
+  "author":"Rahul",
+  "build": {
+    "appId": "com.example.electron-cra",
+    "files": [
+      "build/**/*",
+      "node_modules/**/*"
+    ],
+    "directories":{
+      "buildResources": "assets"
+    },
+    "extends": null 
+  },
+  "homepage": "./",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.1",
+    "@testing-library/react": "^10.4.7",
+    "@testing-library/user-event": "^12.0.15",
+    "axios": "^0.20.0",
+    "cors": "^2.8.5",
+    "firebase": "^7.17.1",
+    "lodash": "^4.17.19",
+    "mongodb": "^3.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-file-reader": "^1.1.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "typesense": "^0.6.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-pack": "npm run build && electron-builder"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "cross-env": "^7.0.2",
+    "electron": "^9.1.1",
+    "electron-builder": "^22.7.0",
+    "electron-is-dev": "^1.2.0",
+    "wait-on": "^5.1.0"
+  }
+}
