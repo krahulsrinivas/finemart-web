@@ -28,7 +28,7 @@
 ---
 <img src="images/orders1.png" 
      alt="Logo" width="49%"> 
-<img src="images/orders2.png" align="right"
+<img src="images/orders2.png" 
      alt="Logo" width="49%">
 <br/>
 
